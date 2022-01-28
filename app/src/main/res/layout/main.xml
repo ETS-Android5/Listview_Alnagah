@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:app="http://schemas.android.com/apk/res-auto"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:background="#F0CF02"
+	android:padding="16dp">
+
+	
+	
+	
+	<TextView
+	  android:id="@+id/textView"
+	  android:layout_width="wrap_content"
+	  android:layout_height="wrap_content"
+	  android:text="Azmmah Tech"
+	  android:textSize="32sp"
+	  android:textColor="#FFFFFF"
+	  android:layout_centerHorizontal="true"/>
+	
+	
+	
+	
+	<FrameLayout
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:layout_below="@id/textView">
+		
+	
+		<VideoView
+			android:id="@+id/video_view"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			/>
+	
+	</FrameLayout>
+
+
+
+
+	<!--com.github.barteksc.pdfviewer.PDFView
+        android:id="@+id/pdfView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/-->
+
+	
+
+
+
+	
+
+</RelativeLayout>
+
+
+

@@ -1,0 +1,20 @@
+<resources>
+
+	<style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+			////////////////////تغيير لون اكشن primary الاعلي/////////////////
+		<item name="colorPrimary">#f6621f</item>
+
+			<item name="android:colorPrimary"> #03FB4C</item>
+
+			<item name="android:colorPrimaryDark"> #F304D4</item>
+
+		<item name="android:textColorPrimary"> #FF07DF</item>
+
+			<item name="android:navigationBarColor"> #F304D4</item>
+
+	</style>
+	
+	
+	
+
+</resources>

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:app="http://schemas.android.com/apk/res-auto"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	tools:context="com.MainActivity">
+
+	
+	
+	
+	
+	<!--LinearLayout
+		android:id="@+id/linearLayout"
+		android:layout_width="match_parent"
+		android:layout_height="80dp"
+		android:layout_alignParentTop="true"
+		android:layout_centerHorizontal="true"
+		android:orientation="horizontal"-->
+
+		<!--Button
+			android:background="#E62E0C"
+			android:textColor="#E3E3E3"
+			android:layout_width="0dp"
+			android:layout_height="80dp"
+			android:layout_weight="1"
+			android:gravity="center"
+			android:text=" دورة برمجة تطبيقات الاندرويد والمواقع"
+			android:textSize="20sp"
+			android:textStyle="bold|italic"/-->
+
+	<!--/LinearLayout-->
+	
+	
+	
+	
+	
+	
+	
+
+	<ListView
+		android:listSelector="#0BFC00"
+		android:divider="#3200FE"
+		android:dividerHeight="6dp"
+		android:id="@+id/listview"
+		android:layout_width="match_parent"
+		android:layout_height="match_parent"
+		android:layout_above="@+id/linearLayout2"
+		android:layout_alignParentLeft="true"
+		android:layout_alignParentStart="true"
+		android:layout_below="@+id/linearLayout"
+		/>
+
+</RelativeLayout>
+
